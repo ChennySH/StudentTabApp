@@ -12,7 +12,7 @@ namespace StudentTabApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegisterationPart3 : ContentPage
     {
-        Student s;
+        
         public RegisterationPart3()
         {
             InitializeComponent();
