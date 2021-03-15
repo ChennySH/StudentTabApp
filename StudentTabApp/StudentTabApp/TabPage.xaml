@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              x:Class="StudentTabApp.TabPage">
   <!--Pages can be added as references or inline-->
-  <local:RegisterationPart1 Title="Part 1" />
-  <local:RegisterationPart2 Title="Part 2" />
-  <local:RegisterationPart3 Title="Part 3" />
+   <local:RegisterationPart1 x:Name="RegPart1" Title="Part 1" />
+   <local:RegisterationPart2 x:Name="RegPart2" Title="Part 2" />
+   <local:RegisterationPart3 x:Name="RegPart3" Title="Part 3" />
 </TabbedPage>

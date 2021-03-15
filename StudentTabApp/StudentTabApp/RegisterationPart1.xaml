@@ -8,7 +8,12 @@
              Title="Registeratin Part 1">
     <ContentPage.Content>
         <StackLayout>
-            
+            <Label Text="Student Name:" />
+            <Entry x:Name="StudentNameEntry" Placeholder="Student Name" Text="{Binding Name}"/>
+            <Label Text="Student Adress:"/>
+            <Entry x:Name="StudentAdreesEntry" Placeholder="Student Adress" Text="{Binding Adress}"/>
+            <Label Text="Student's Birth Date:"/>
+            <DatePicker x:Name="Student'sBirthDatePicker" Date="{Binding BirthDate}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
