@@ -8,9 +8,22 @@
              Title="Registeration Part 3">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Name:"/>
+            <Label Text="{Binding Name}"/>
+            <Label Text="Adress:"/>
+            <Label Text="{Binding Adress}"/>
+            <Label Text="Birth Date"/>
+            <Label Text="{Binding BirthDate}"/>
+            <Label Text="Class:" />
+            <Label Text="{Binding Class}"/>
+            <Label Text="Class Number:"/>
+            <Label Text="{Binding ClassNo}"/>
+            <Label Text="Like Math"/>
+            <Label Text="{Binding LikeMath}"/>
+            <Label Text="Like Computer Sience"/>
+            <Label Text="{Binding LikeCs}"/>
+            <Button x:Name="SaveButton" Text="Save"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

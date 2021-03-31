@@ -13,7 +13,7 @@
             <Label Text="Student Adress:"/>
             <Entry x:Name="StudentAdreesEntry" Placeholder="Student Adress" Text="{Binding Adress}"/>
             <Label Text="Student's Birth Date:"/>
-            <DatePicker x:Name="Student'sBirthDatePicker" Date="{Binding BirthDate}"/>
+            <DatePicker x:Name="StudentsBirthDatePicker" Date="{Binding BirthDate}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

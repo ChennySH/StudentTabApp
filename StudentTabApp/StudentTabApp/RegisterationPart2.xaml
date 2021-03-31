@@ -10,7 +10,7 @@
         <StackLayout>
             <Label Text="Class: "/>
             <Entry x:Name="ClassEntry" Placeholder="Class" Text="{Binding Class}"/>
-            <Label Text="Class Math: "/>
+            <Label Text="Class Number: "/>
             <Entry x:Name="ClassNumEntry" Placeholder="0" Text="{Binding ClassNo}"/>
             <Label Text="Like Math?"/>
             <Switch x:Name="LikeMathSwitch" IsToggled="{Binding LikeMath}" ThumbColor="Green" OnColor="Red"/>
